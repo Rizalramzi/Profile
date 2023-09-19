@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav .nav-link.active {
+    position: relative;
+    color: #d9ff00;
+  }
+  
+  .navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #d9ff00; 
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    position: relative;
+    color: #d9ff00;
+    font-weight: 500; 
+}
+  h1{
+    color: white;
+  }
+  h3{
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+  }
+  b{
+    color: #d9ff00;
+  }
+  .hero{
+    margin-top: 10%;
+  }
+  .about{
+    margin-top: 10%;
+  }
+  .skill{
+    margin-top: 10%;
+  }
+  .gallery{
+    margin-top: 10%;
+  }
+  .footer{
+    color: white;
+  }
+  .btn-custom{
+    background-color: #abc51c;
+    color: white;
+  }
+  .btn-custom:hover{
+    color: #ffffff;
+    background-color: #5e6e00;
+  }
+  .btn-custom-2{
+    background-color: transparent;
+    border-color: #d9ff00;
+    color: #fff;
+  }
+  .btn-custom-2:hover{
+    background-color: #abc51c;
+    color: white;
+  }
+  .flex{
+    display: flex;
+  }
+  .row-gap-3{
+    row-gap: 3rem;
+  }
+  .card{
+    background-color: rgb(36, 36, 36);
+    color: white;
+  }
